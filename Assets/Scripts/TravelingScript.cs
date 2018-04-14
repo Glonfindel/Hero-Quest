@@ -9,6 +9,8 @@ public class TravelingScript : MonoBehaviour {
     public Text helpText;
     public Slider slider;
     public Button button;
+    public Text start;
+    public Text destination;
     public PlayerMovement player;
     private float startTime;
     private bool started = false;
@@ -18,6 +20,8 @@ public class TravelingScript : MonoBehaviour {
     {
         distance = Mathf.RoundToInt(Vector3.Distance(player.currentLocation.transform.position, player.destination.transform.position)) * 10;
         description.text = "You are traveling to " + player.destination.name + "\r\nMake high knees for " + distance + " seconds to reach your destination";
+        start.text = player.currentLocation.symbol;
+        destination.text = player.destination.symbol;
     }
 
     private void Update()

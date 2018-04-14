@@ -8,7 +8,7 @@ public class PlotManager : MonoBehaviour {
     public Text locationText;
     public Text descriptionText;
     public PlayerMovement player;
-    private int plot = 0;
+    public int plot = 0;
 
     private void OnEnable()
     {
@@ -25,6 +25,9 @@ public class PlotManager : MonoBehaviour {
         if (player.actionNumber > player.currentLocation.currentQuest.actions.Count - 1)
         {
             plot = 0;
+            player.exercisePanel.GetComponent<ExerciseManager>().exerciseNumber = 0;
+            player.actionNumber = 0;
+            player.gold += player.currentLocation.currentQuest.goldValue;
             return;
         }
         else if (player.currentLocation.currentQuest.actions[player.actionNumber] == ActionOrder.Plot)

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca56ae261324e44da9df232006d22ff, type: 3}
   m_Name: Second Exercise
   m_EditorClassIdentifier: 
-  exerciseText: 30 seconds jumping jacks
+  exerciseText: Good job, next exercise is 30 seconds jumping jacks.
   exercise:
   - {fileID: 21300000, guid: 717beac7880acf849a844951b46f19b4, type: 3}
   - {fileID: 21300000, guid: ed4d2942a7b99b44e8f02df85be3d73f, type: 3}

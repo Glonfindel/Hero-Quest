@@ -2,11 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour {
-
+public class PlayerMovement : MonoBehaviour
+{
     public MapPoint currentLocation;
     [NonSerialized] public MapPoint destination;
+    public Text goldText;
+    [NonSerialized] public float gold;
     public GameObject plotPanel;
     public GameObject exercisePanel;
     public GameObject travelingPanel;
@@ -23,9 +26,11 @@ public class PlayerMovement : MonoBehaviour {
         {
             exercisePanel.SetActive(true);
         }
+
     }
 
-    void Update () {
+    void Update()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
@@ -40,9 +45,21 @@ public class PlayerMovement : MonoBehaviour {
                     travelingPanel.SetActive(true);
                     transform.position = hit.collider.transform.position;
                     currentLocation = destination;
+
+                    currentLocation.currentQuest = RandomQuest();
+                    if (!currentLocation.currentQuest) return;
+                    if (currentLocation.currentQuest.actions[actionNumber] == ActionOrder.Plot)
+                    {
+                        plotPanel.SetActive(true);
+                    }
+                    else
+                    {
+                        exercisePanel.SetActive(true);
+                    }
                 }
             }
         }
+        goldText.text = "Gold: " + gold.ToString();
     }
 
     MapQuest RandomQuest()

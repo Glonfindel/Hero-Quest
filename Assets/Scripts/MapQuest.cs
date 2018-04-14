@@ -8,7 +8,7 @@ public class MapQuest : ScriptableObject {
     public List<ActionOrder> actions;
     public List<string> descriptions;
     public List<QuestExercise> exercises;
-
+    public float goldValue;
 }
 
 public enum ActionOrder { Plot, Exercise }

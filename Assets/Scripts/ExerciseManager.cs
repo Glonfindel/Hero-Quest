@@ -15,7 +15,7 @@ public class ExerciseManager : MonoBehaviour {
     private List<Sprite> sprites;
     private float startTime;
     private bool started = false;
-    private int exerciseNumber = 0;
+    public int exerciseNumber = 0;
     private int i = -1;
 
     private void OnEnable()
@@ -76,6 +76,9 @@ public class ExerciseManager : MonoBehaviour {
         if (player.actionNumber > player.currentLocation.currentQuest.actions.Count)
         {
             exerciseNumber = 0;
+            player.plotPanel.GetComponent<PlotManager>().plot = 0;
+            player.actionNumber = 0;
+            player.gold += player.currentLocation.currentQuest.goldValue;
             return;
         }
         else if (player.currentLocation.currentQuest.actions[player.actionNumber] == ActionOrder.Plot)

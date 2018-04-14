@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
+  m_Name: Strawberry Quest
+  m_EditorClassIdentifier: 
+  actions: 000000000100000000000000
+  descriptions:
+  - As you arrive in nearby farm, old woman waves at you. - Hello Hunter. Would you
+    spare a moment to help me? My back hurts, and I need to gather these strawberries
+    for my granddaughter as she arrives just tommorow.
+  - -Thank you so much. I will not live much longer so i want to indulge my little
+    girl when i still can.
+  exercises:
+  - {fileID: 11400000, guid: 60c80d1efbd79ae4aa59a829971d5fdf, type: 2}
+  goldValue: 25
