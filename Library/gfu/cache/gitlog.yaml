@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: c71a32b55077b0547868a298b68d21df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-04-14T10:08:51.8250080+02:00
+  initializedAtString: 2018-04-14T10:07:22.2981811+02:00
+  log:
+  - commitID: 8fa2ac1d16376949e9eb7db17fb76ef21e66f34b
+    mergeA: 
+    mergeB: 
+    authorName: Adam Urbanowicz
+    authorEmail: aurbanow@pjwstk.edu.pl
+    commitEmail: aurbanow@pjwstk.edu.pl
+    commitName: Adam Urbanowicz
+    summary: initial commit
+    description: initial commit
+    timeString: 2017-12-04T15:42:16.0000000+01:00
+    commitTimeString: 2017-12-04T15:42:16.0000000+01:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\Glonfindel\.gitignore
+      projectPath: ..\..\.gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: src\Dot.Library.Web.sln
+      fullPath: C:\Users\Glonfindel\src\Dot.Library.Web.sln
+      projectPath: ..\..\src\Dot.Library.Web.sln
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: src\Dot.Library.Web\Controllers\ValuesController.cs
+      fullPath: C:\Users\Glonfindel\src\Dot.Library.Web\Controllers\ValuesController.cs
+      projectPath: ..\..\src\Dot.Library.Web\Controllers\ValuesController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: src\Dot.Library.Web\Dot.Library.Web.csproj
+      fullPath: C:\Users\Glonfindel\src\Dot.Library.Web\Dot.Library.Web.csproj
+      projectPath: ..\..\src\Dot.Library.Web\Dot.Library.Web.csproj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: src\Dot.Library.Web\Program.cs
+      fullPath: C:\Users\Glonfindel\src\Dot.Library.Web\Program.cs
+      projectPath: ..\..\src\Dot.Library.Web\Program.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: src\Dot.Library.Web\Properties\launchSettings.json
+      fullPath: C:\Users\Glonfindel\src\Dot.Library.Web\Properties\launchSettings.json
+      projectPath: ..\..\src\Dot.Library.Web\Properties\launchSettings.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: src\Dot.Library.Web\Startup.cs
+      fullPath: C:\Users\Glonfindel\src\Dot.Library.Web\Startup.cs
+      projectPath: ..\..\src\Dot.Library.Web\Startup.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: src\Dot.Library.Web\appsettings.Development.json
+      fullPath: C:\Users\Glonfindel\src\Dot.Library.Web\appsettings.Development.json
+      projectPath: ..\..\src\Dot.Library.Web\appsettings.Development.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: src\Dot.Library.Web\appsettings.json
+      fullPath: C:\Users\Glonfindel\src\Dot.Library.Web\appsettings.json
+      projectPath: ..\..\src\Dot.Library.Web\appsettings.json
+      originalPath: 
+      status: 4
+      staged: 0
