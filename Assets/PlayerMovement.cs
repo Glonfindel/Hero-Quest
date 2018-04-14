@@ -1,10 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
     public MapPoint currentLocation;
+    [NonSerialized] public MapPoint destination;
+    public GameObject travelingPanel;
 
     void Update () {
         if (Input.GetMouseButtonDown(0))
@@ -13,10 +16,14 @@ public class PlayerMovement : MonoBehaviour {
 
             if (hit.collider != null)
             {
-                if (currentLocation.Destinations.Contains(hit.collider.GetComponent<MapPoint>()))
+                MapPoint clickedPoint = hit.collider.GetComponent<MapPoint>();
+                if (clickedPoint == currentLocation) return;
+                if (currentLocation.destinations.Contains(clickedPoint))
                 {
+                    destination = clickedPoint;
+                    travelingPanel.SetActive(true);
                     transform.position = hit.collider.transform.position;
-                    currentLocation = hit.collider.GetComponent<MapPoint>();
+                    currentLocation = destination;
                 }
             }
         }

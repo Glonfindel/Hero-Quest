@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapPoint : MonoBehaviour {
 
-    public List<MapPoint> Destinations;
+    public string Symbol;
+    public List<MapPoint> destinations;
 
 }
