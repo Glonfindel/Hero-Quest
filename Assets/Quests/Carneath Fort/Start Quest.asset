@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
+  m_Name: Start Quest
+  m_EditorClassIdentifier: 
+  actions: 00000000000000000000000001000000010000000100000000000000
+  descriptions:
+  - "You slowly open your eyes and try to remember what happened before, but all you
+    remember is pain and darkness. In front of you sits a girl with red braided hair
+    and emerald eyes. - It seems you\u2019re finally awake. \u2013 she says. \u2013
+    Stand up. "
+  - "- You seem lost. \u2013 she laughs. \u2013 Don\u2019t worry. Everyone loses their
+    memory when they decide to join our ranks. There is only one family for us. My
+    name is Raya. \u2013 she pauses for a second, then continues. \u2013 Go downstairs
+    and meet Raknari, he will teach you all you need. "
+  - 'In front of you waits black man in leather armor. He holds short bow in his hands,
+    and you see quiver full of arrows on his back. - Welcome in Carneath, home to
+    all Hunters around the world.  It is an honor to join us, but also a huge responsibility.
+    Come, we should begin your training. '
+  - "-Before you joined us, you were great warrior \u2013 says Raknari. \u2013 As
+    your body is now back in shape i think you  should begin your journey. Remember.
+    Our duty is to protect humanity not to kill every beast in sight. "
+  exercises:
+  - {fileID: 11400000, guid: 882ba5b27e981a4489cbac803ae7c92b, type: 2}
+  - {fileID: 11400000, guid: 04327a089e8fd594da05a616880cf5f4, type: 2}
+  - {fileID: 11400000, guid: 964323dea7bab73418831f82d0c68fb4, type: 2}

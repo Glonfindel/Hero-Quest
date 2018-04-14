@@ -8,7 +8,7 @@ You slowly open your eyes and try to remember what happened before, but all you 
 
 /next („Go downstairs”)
 
-Before you waits black man in leather armor. He holds short bow in his hands, and you see quiver full of arrows on his back.
+In front of you waits black man in leather armor. He holds short bow in his hands, and you see quiver full of arrows on his back.
 - Welcome in Carneath, home to all Hunters around the world.  It is an honor to join us, but also a huge responsibility. Come, we should begin your training.
 
 /next
