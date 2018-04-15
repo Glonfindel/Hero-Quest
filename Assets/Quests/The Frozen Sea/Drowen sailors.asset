@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
+  m_Name: Drowen sailors
+  m_EditorClassIdentifier: 
+  actions: 00000000010000000100000000000000
+  descriptions:
+  - 'As you wander aimlessly with your feet in water, you notice shipwreck. Curiously
+    you come closer. Three drowned sailors are running towards you with their cutlass''.
+    They catch  you and drag you under water. '
+  - As all sailors are defeated, you search a shipwreck finding 55 gold.
+  exercises:
+  - {fileID: 11400000, guid: 736447ae60a15e94ba06af50af837f06, type: 2}
+  - {fileID: 11400000, guid: 829ebdcceaa97014ab830330d879a1fa, type: 2}
+  goldValue: 55

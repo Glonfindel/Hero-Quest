@@ -13,12 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions: 0000000001000000000000000100000000000000
   descriptions:
-  - You see wolf charging at girl playing with a kite. She is completely unaware of
-    incoming danger.
-  - When you fought with wolf, girl ran away. She dropped her pouch though. You may
-    as well pick it up, you saved her life after all.
-  - When you fought with wolf, girl ran away. She dropped her pouch though. You may
-    as well pick it up, you saved her life after all.
+  - Getting closer to the lake you see an old man full of wrinkles and white hair
+    trying to push the boat on water - Hello, can i help you?- It seems you scared
+    him. <cough> -Yes,   child. I would be really grateful if you could catch some
+    fish for me.
+  - After fishing for an hour you get so many fish, that old man will eat enough for
+    some days.
+  - -Thank you, child. There is not enough people willing to help an old man nowadays.
+    Take this 10 gold as a thanks.
   exercises:
   - {fileID: 11400000, guid: 1fca46525156bda499d42077d6922ce5, type: 2}
   - {fileID: 11400000, guid: 47de722566a67c14ca3413f16367b4e6, type: 2}

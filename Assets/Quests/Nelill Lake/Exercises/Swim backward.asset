@@ -11,9 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca56ae261324e44da9df232006d22ff, type: 3}
   m_Name: Swim backward
   m_EditorClassIdentifier: 
-  exerciseText: Do squarts and gather strawberries.
+  exerciseText: Get back by doing situps  for  30 seconds
   exercise:
-  - {fileID: 21300000, guid: d2573aa2c8171ce4daf1ea3e3c8bf49f, type: 3}
-  - {fileID: 21300000, guid: 644481901de58e941b70941e6c418b2a, type: 3}
-  - {fileID: 21300000, guid: ec417a820c116094a8d7fc81ed297bd8, type: 3}
+  - {fileID: 21300000, guid: 95aa1ba4beb6c4b42a299b080dba8893, type: 3}
+  - {fileID: 21300000, guid: d10bc2aa240d8434fae47853d0778886, type: 3}
   time: 30

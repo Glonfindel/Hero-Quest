@@ -29,6 +29,12 @@ public class PlotManager : MonoBehaviour {
             player.actionNumber = 0;
             player.gold += player.currentLocation.currentQuest.goldValue;
             player.currentLocation.quests.Remove(player.currentLocation.currentQuest);
+            int questRemaining = 0;
+            foreach (var point in FindObjectsOfType<MapPoint>())
+            {
+                questRemaining += point.quests.Count;
+            }
+            player.questRemaining = questRemaining;
             return;
         }
         else if (player.currentLocation.currentQuest.actions[player.actionNumber] == ActionOrder.Plot)

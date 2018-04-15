@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
+  m_Name: Bad night
+  m_EditorClassIdentifier: 
+  actions: 00000000010000000100000000000000
+  descriptions:
+  - 'As any man you have some needs. You were in mood for woman so you went to whorehouse.
+    After payment you chose a girl for today. She was slim, her eyes was beautifull,
+    and long white hair was one of your turnons.  '
+  - You take 75 gold from her pouch and leave the place still unsatisfied.
+  exercises:
+  - {fileID: 11400000, guid: 7f1e6c7388a99cf458e7dd05ef8e9106, type: 2}
+  - {fileID: 11400000, guid: 7ec23d69ffefc8c4d982eb5b3d4fedcd, type: 2}
+  goldValue: 75

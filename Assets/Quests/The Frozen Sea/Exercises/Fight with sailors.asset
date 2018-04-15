@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca56ae261324e44da9df232006d22ff, type: 3}
+  m_Name: Fight with sailors
+  m_EditorClassIdentifier: 
+  exerciseText: Now after catching a breath defeat them with 45 seconds of punches.
+  exercise:
+  - {fileID: 21300000, guid: 749ca39d8dfedf54887897c3223de1d8, type: 3}
+  - {fileID: 21300000, guid: 722b1c9141d1b4c4b988b9b12a4a5970, type: 3}
+  - {fileID: 21300000, guid: 411f44e26794be9428a672b80c5e6101, type: 3}
+  - {fileID: 21300000, guid: 0c46146a21c6bec42a561a5322ea2ab4, type: 3}
+  time: 45

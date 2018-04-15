@@ -1,9 +1,0 @@
-Mystic Hills Farm
-As you arrive in nearby farm, troubled peasant runs toward you.
-- God bless you, Hunter. My name is Rick– he says. – Week ago my brother Tim, lumberjack went to cut down some trees in Yrst Woods. It’s not like him to stay away from home so long. I heard that harpies went more ferocious lately. Please, could you try to find him, and bring him back there if he’s still alive?
-/next ( „I will” )
-
-- Thank you. I will wait for your return and I hope Tim will be with you.
-/next („Return when quest completed”)
-- I see he is not with you… At least you tried. Thank you. – says Rick.
-*You obtain 50 gold*

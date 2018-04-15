@@ -8,12 +8,15 @@ public class PlayerMovement : MonoBehaviour
 {
     public MapPoint currentLocation;
     [NonSerialized] public MapPoint destination;
+    public Text questText;
     public Text goldText;
     [NonSerialized] public float gold;
+    public GameObject winPanel;
     public GameObject plotPanel;
     public GameObject exercisePanel;
     public GameObject travelingPanel;
     [NonSerialized] public int actionNumber = 0;
+    [NonSerialized] public int questRemaining = 12;
 
     private void Start()
     {
@@ -60,6 +63,11 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         goldText.text = "Gold: " + gold.ToString();
+        questText.text = "Quests remaining: " + questRemaining.ToString();
+        if (questRemaining == 0)
+        {
+            winPanel.SetActive(true);
+        }
     }
 
     MapQuest RandomQuest()

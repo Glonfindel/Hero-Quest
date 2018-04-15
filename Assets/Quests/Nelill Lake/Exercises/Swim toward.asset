@@ -11,10 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca56ae261324e44da9df232006d22ff, type: 3}
   m_Name: Swim toward
   m_EditorClassIdentifier: 
-  exerciseText: Do squarts and gather strawberries.
+  exerciseText: After entering the wooden, leaking boat make situps for 30 seconds
+    to sail towards the lake center
   exercise:
-  - {fileID: 21300000, guid: 749ca39d8dfedf54887897c3223de1d8, type: 3}
-  - {fileID: 21300000, guid: 722b1c9141d1b4c4b988b9b12a4a5970, type: 3}
-  - {fileID: 21300000, guid: 411f44e26794be9428a672b80c5e6101, type: 3}
-  - {fileID: 21300000, guid: 0c46146a21c6bec42a561a5322ea2ab4, type: 3}
-  time: 60
+  - {fileID: 21300000, guid: 95aa1ba4beb6c4b42a299b080dba8893, type: 3}
+  - {fileID: 21300000, guid: d10bc2aa240d8434fae47853d0778886, type: 3}
+  time: 30
