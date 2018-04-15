@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
+  m_Name: Kill undead child
+  m_EditorClassIdentifier: 
+  actions: 010000000100000000000000
+  descriptions:
+  - '-Thank you. - says woman with her head on chest of her husband. - Our daughter
+    died at birth and from this time she kept haunting our home. We hope this nightmare
+    is finally over. Please, take this as a gratitude. '
+  exercises:
+  - {fileID: 11400000, guid: 7d3f6c7d841fc1b47a460236ebdc013a, type: 2}
+  - {fileID: 11400000, guid: cef14bd5b95524d4ca7d192505dc1af0, type: 2}
+  goldValue: 15

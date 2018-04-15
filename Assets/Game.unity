@@ -265,8 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: N
-  quests:
-  - {fileID: 0}
+  quests: []
   destinations:
   - {fileID: 935678360}
   - {fileID: 670971685}
@@ -1028,7 +1027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   symbol: xbx
   quests:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 0f4759f9de40eda47917afcfd3137aa9, type: 2}
   destinations:
   - {fileID: 686149812}
   - {fileID: 1324967385}
@@ -1361,6 +1360,7 @@ MonoBehaviour:
   quests:
   - {fileID: 11400000, guid: cad1ef1a29974aa468df253b8687d347, type: 2}
   - {fileID: 11400000, guid: ed0b857e25d0e664e98effcd454588cf, type: 2}
+  - {fileID: 11400000, guid: 153be0a371b80664ca3d83099ca53e24, type: 2}
   destinations:
   - {fileID: 1788811957}
   - {fileID: 534786364}
@@ -2401,7 +2401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   symbol: O
   quests:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: fb75da05c2876ff4288ee531e4026211, type: 2}
   destinations:
   - {fileID: 1324967385}
   - {fileID: 534786364}
@@ -3136,7 +3136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   symbol: JLK
   quests:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: d62c63750f8760d43965b5079c789254, type: 2}
   destinations:
   - {fileID: 1788811957}
   - {fileID: 534786364}
@@ -3978,7 +3978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   symbol: o
   quests:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b89de102987aeda42b7e7dbb786eb5da, type: 2}
   destinations:
   - {fileID: 961892000}
   - {fileID: 534786364}

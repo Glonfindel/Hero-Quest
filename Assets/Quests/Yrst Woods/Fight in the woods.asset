@@ -11,12 +11,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
   m_Name: Fight in the woods
   m_EditorClassIdentifier: 
-  actions: 000000000100000000000000
+  actions: 00000000010000000100000000000000
   descriptions:
-  - You see wolf charging at girl playing with a kite. She is completely unaware of
-    incoming danger.
-  - When you fought with wolf, girl ran away. She dropped her pouch though. You may
-    as well pick it up, you saved her life after all.
+  - Forest became more dangerous recently. Beasts are attacking wanderers more and
+    more often. You got an order to eliminate danger from nearby citizens.
+  - After killing a bear you return to the employer. -Thank you, stranger. If not
+    you, we wouldn't be able to chop down trees from this forest. Take this. 30 gold
+    is not much, but it's all i have.
   exercises:
-  - {fileID: 11400000, guid: d3c9c617ea2f3ec459a8e785ad2603fb, type: 2}
-  goldValue: 10
+  - {fileID: 11400000, guid: 14f49588d4a2f1e4ca9348d80b56f1cb, type: 2}
+  - {fileID: 11400000, guid: 74a305594d86f744b8470a9d6928c49c, type: 2}
+  goldValue: 30

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
+  m_Name: Necromancers in chapel
+  m_EditorClassIdentifier: 
+  actions: 00000000010000000100000000000000
+  descriptions:
+  - After many troubles and months of endless journey you needed to regain your peace
+    in nearby shrine. You knew that shrines are never completely silent, so even if
+    it was the only shrine in the region you decided to check what's going on. You
+    began sneaking towards an entrance, but stopped for a while as you saw a group
+    of man with a dark capes.
+  - 'After the fight you approach the altar, pray for a while and then you pick up
+    loot from enemies'' corpses, which is worth 70 gold. '
+  exercises:
+  - {fileID: 11400000, guid: a4c1a5eb2f96d5342a62f29d9182cbbe, type: 2}
+  - {fileID: 11400000, guid: d1e71d4e7b5150d4ea4687d10383ebf2, type: 2}
+  goldValue: 70
