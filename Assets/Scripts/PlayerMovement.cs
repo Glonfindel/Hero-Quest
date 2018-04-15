@@ -64,6 +64,9 @@ public class PlayerMovement : MonoBehaviour
 
     MapQuest RandomQuest()
     {
-        return currentLocation.quests[UnityEngine.Random.Range(0, currentLocation.quests.Count)];
+        if (currentLocation.quests.Count > 0)
+            return currentLocation.quests[UnityEngine.Random.Range(0, currentLocation.quests.Count)];
+        else
+            return null;
     }
 }
