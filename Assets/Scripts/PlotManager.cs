@@ -28,6 +28,7 @@ public class PlotManager : MonoBehaviour {
             player.exercisePanel.GetComponent<ExerciseManager>().exerciseNumber = 0;
             player.actionNumber = 0;
             player.gold += player.currentLocation.currentQuest.goldValue;
+            player.currentLocation.quests.Remove(player.currentLocation.currentQuest);
             return;
         }
         else if (player.currentLocation.currentQuest.actions[player.actionNumber] == ActionOrder.Plot)
