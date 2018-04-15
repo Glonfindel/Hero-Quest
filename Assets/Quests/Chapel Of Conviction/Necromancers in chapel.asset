@@ -13,11 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions: 00000000010000000100000000000000
   descriptions:
-  - You see wolf charging at girl playing with a kite. She is completely unaware of
-    incoming danger.
-  - When you fought with wolf, girl ran away. She dropped her pouch though. You may
-    as well pick it up, you saved her life after all.
+  - After many troubles and months of endless journey you needed to regain your peace
+    in nearby shrine. You knew that shrines are never completely silent, so even if
+    it was the only shrine in the region you decided to check what's going on. You
+    began sneaking towards an entrance, but stopped for a while as you saw a group
+    of man with a dark capes.
+  - 'After the fight you approach the altar, pray for a while and then you pick up
+    loot from enemies'' corpses, which is worth 70 gold. '
   exercises:
-  - {fileID: 11400000, guid: d3c9c617ea2f3ec459a8e785ad2603fb, type: 2}
-  - {fileID: 11400000, guid: d3c9c617ea2f3ec459a8e785ad2603fb, type: 2}
-  goldValue: 30
+  - {fileID: 11400000, guid: a4c1a5eb2f96d5342a62f29d9182cbbe, type: 2}
+  - {fileID: 11400000, guid: d1e71d4e7b5150d4ea4687d10383ebf2, type: 2}
+  goldValue: 70

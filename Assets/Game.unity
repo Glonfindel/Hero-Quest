@@ -265,8 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: N
-  quests:
-  - {fileID: 0}
+  quests: []
   destinations:
   - {fileID: 935678360}
   - {fileID: 670971685}
@@ -3979,7 +3978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   symbol: o
   quests:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b89de102987aeda42b7e7dbb786eb5da, type: 2}
   destinations:
   - {fileID: 961892000}
   - {fileID: 534786364}
