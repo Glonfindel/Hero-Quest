@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
+  m_Name: Fight with gryphon
+  m_EditorClassIdentifier: 
+  actions: 01000000010000000100000000000000
+  descriptions:
+  - Terrified miner comes out  from  the cave  and gives you  45 gold. Thank you,
+    now I can finally leave this place  and go back  to stamford
+  exercises:
+  - {fileID: 11400000, guid: e9763e141a097b745a2cc3d8df83f095, type: 2}
+  - {fileID: 11400000, guid: cafae905a7d358346a7f6ceade266bd2, type: 2}
+  - {fileID: 11400000, guid: 4cd0e8f135c08e54e85a4de3641385c7, type: 2}
+  goldValue: 45

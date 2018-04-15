@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb4fa4a55aa9ac46b97d3054b8c5810, type: 3}
+  m_Name: Fight in the woods
+  m_EditorClassIdentifier: 
+  actions: 00000000010000000100000000000000
+  descriptions:
+  - You see wolf charging at girl playing with a kite. She is completely unaware of
+    incoming danger.
+  - When you fought with wolf, girl ran away. She dropped her pouch though. You may
+    as well pick it up, you saved her life after all.
+  exercises:
+  - {fileID: 11400000, guid: d3c9c617ea2f3ec459a8e785ad2603fb, type: 2}
+  - {fileID: 11400000, guid: d3c9c617ea2f3ec459a8e785ad2603fb, type: 2}
+  goldValue: 30
