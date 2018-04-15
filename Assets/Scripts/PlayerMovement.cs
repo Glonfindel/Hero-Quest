@@ -68,6 +68,10 @@ public class PlayerMovement : MonoBehaviour
         {
             winPanel.SetActive(true);
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     MapQuest RandomQuest()
